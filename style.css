@@ -1,0 +1,134 @@
+
+/*  
+
+***************
+
+Template Name: Country Random Number 
+Author: Ibrahim
+Author G-mail: ibrahim.cse2 @gmail.com
+Version: 1.00  
+
+****************
+
+
+****************
+Table of Content 
+
+****************
+1. Heading part 
+2. Main part
+3. Show number part 
+
+**************** 
+
+*/
+
+
+/* ====== common css ======= */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* ====== common css end======= */
+
+/* ====== Heading part start ====== */
+
+.heading{
+    padding: 20px 40px;
+    text-align: center;
+}
+
+/* ====== Heading part end ====== */
+
+/* ====== main part start ======= */
+.country{
+    width: 700px;
+    background: skyblue;
+    height: 200px;
+    padding: 30px;
+    margin: 0 auto;
+}
+select{
+    border: none;
+    padding: 6px 20px;
+    border-radius: 5px;
+    background: white;
+}
+option{
+    padding:  0 40px;
+}
+span{
+    margin: 0 10px;
+}
+input{
+   outline: none;
+   border: none;
+   padding: 6px 20px;
+   border-radius: 5px;
+}
+/* ====== main part end ======= */
+
+/* ====== show number part start ======= */
+
+.show{
+    padding: 10px 40px;
+    width: 780px;
+    margin: 0 auto;
+}
+li {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+}
+
+/* ====== show number part end ======= */
+
+
+/* ====== media query start======= */
+
+@media all and  (max-width: 704px) {
+    .country{
+        width: 500px;
+        background: skyblue;
+        padding: 30px;
+        margin: 0 auto;
+        height: 250px;   
+    }
+    select{
+        margin-left: 20px;
+        border: none;
+        padding: 6px 20px;
+        border-radius: 5px;
+    }
+    select{
+        padding: 6px 40px;
+        background: white;
+    }
+    span{
+        color: skyblue;
+        display: flex;
+    }
+    #quantity{
+        margin-left: 30px;
+    }
+    #quantity input{
+        padding: 6px 15px; 
+    }
+
+} 
+
+/* ====== media query end======= */
+
+
